@@ -1,0 +1,24 @@
+.lang-selection__lang-link {
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 400;
+    padding-right: 18px;
+    opacity: 1;
+}
+
+.lang-selection__lang-link:last-child {
+    padding: 0;
+}
+
+.lang-selection__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .lang-selection__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

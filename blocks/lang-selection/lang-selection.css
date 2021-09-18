@@ -1,0 +1,9 @@
+.lang-selection {
+    padding-top: 46px;
+}
+
+@media screen and (max-width: 320px) {
+    .lang-selection {
+        padding-top: 30px;
+    }   
+}

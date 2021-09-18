@@ -1,0 +1,19 @@
+.place__content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__content {
+        margin: 0 auto;
+        padding-top: 32px;
+    }
+}
